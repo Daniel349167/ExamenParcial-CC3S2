@@ -142,5 +142,5 @@ Rails ofrece `partials`, que son fragmentos de vistas que se pueden reutilizar e
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/49604ac3-b7eb-4c53-8969-06c9804792a3)
 
 ### 18. ¿Por qué no se modificaron los escenarios de Cucumber y las definiciones de pasos para que funcionen igualmente con Sinatra y Rails?
-Los escenarios de Cucumber y las definiciones de pasos son agnósticos respecto al framework backend. Por eso, no requieren cambios para funcionar tanto en Sinatra como en Rails.
+Los escenarios de Cucumber y las definiciones de pasos se escriben en lenguaje Gherkin y Ruby, respectivamente. Por tanto, aunque se cambie el framework de Ruby, el código será el mismo siempre y cuando la funcionalidad y la interfaz de usuario o puntos finales de API se mantengan consistentes entre las diferentes versiones de la aplicación. Además, es importante señalar que los escenarios en lenguaje Gherkin son válidos para cualquier aplicación backend, no solo para los frameworks basados en Ruby.
 
