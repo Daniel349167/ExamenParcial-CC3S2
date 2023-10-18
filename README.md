@@ -20,21 +20,14 @@
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/fa44a442-e618-46ad-ba50-ffd71b026e03)
 
 ## Preguntas
-
+![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4c0989eb-ac04-407c-bd7a-9e213b158752)
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/1f5d3c92-249a-4c6c-a73c-752269d8452f)
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/24706abd-0d3b-4ed3-a2ee-f69644400c13)
+ 
+![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/5677daa4-4d92-4df3-b69a-f398a2fbb7e1)
 
- ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4c0989eb-ac04-407c-bd7a-9e213b158752)
-
-
- 
- 
- 
- 
- 
 
  
-Preguntas:
  
  
  
