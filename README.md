@@ -37,26 +37,25 @@ Ejecuta las migraciones de la base de datos que aún no se han aplicado. En el c
 
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/fa44a442-e618-46ad-ba50-ffd71b026e03)
 
-### Preguntas:
+### 5. Preguntas:
 - Agrega un nuevo atributo al modelo Todo y actualiza las vistas para mostrar y editar el nuevo campo. Para propósitos de práctica digamos que queremos agregar un nuevo campo booleano llamado "done" con un valor predeterminado de falso.
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4c0989eb-ac04-407c-bd7a-9e213b158752)
+Resultado:
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/1479e974-ae56-4390-b231-1f47040d0a0e)
-![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/c4c03069-8a9b-4ae2-b190-c68b4028c00c)
-![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/7c482ff6-03ef-45eb-b87e-d84bbb23b619)
-
-
 
 - Cambia el esquema de enrutamiento. Debes suponer que queremos una nueva ruta new_todo para ir a una página que crea un nuevo ítem Todo
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/209418ce-f8a6-475a-87b3-378c56e3ff47)
+Resultado:
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/015824df-0b56-45d1-9f92-f25e2b856d6a)
 
-- Establece todos#index como la página de inicio de la aplicación.
+- Establece 'todos#index' como la página de inicio de la aplicación.
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/ee4766ff-2d9c-4270-b42f-4a707c533dc5)
 
 - Enumera todas las migraciones. ¿Cuál es el comando para volver a una versión anterior de la base de datos? Muestra los resultados.
+Migraciones:
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/18c1a833-2820-4797-a519-8a818f10f5eb)
 
-El comando es:
+El comando para volver es:
 ```shell
 rails db:migrate:down VERSION=numero_de_version
 ```
