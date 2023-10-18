@@ -63,6 +63,7 @@ Resultado:
 - Enumera todas las migraciones. ¿Cuál es el comando para volver a una versión anterior de la base de datos? Muestra los resultados.
 
 Migraciones:
+
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/18c1a833-2820-4797-a519-8a818f10f5eb)
 
 El comando para volver es:
