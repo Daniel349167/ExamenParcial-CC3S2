@@ -10,9 +10,7 @@
 
 ### 1. ¿Qué está pasando con rails generate scaffold todo description:string?
 
-Este comando realiza varias tareas:
-
-Crea un modelo llamado "Todo" con un atributo "description" de tipo "string".
+Este comando realiza varias tareas: Crea un modelo llamado "Todo" con un atributo "description" de tipo "string".
 Crea un controlador "TodosController" con métodos para manejar operaciones CRUD.
 Genera vistas para las operaciones CRUD.
 Crea una migración que define cómo crear la tabla "todos" en la base de datos.
