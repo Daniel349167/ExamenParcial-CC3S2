@@ -6,6 +6,7 @@
 
  ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4e13725c-62f7-4691-96df-b6f2e268d895)
 
+![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/f2c56eab-6f0c-49f3-8c77-ea6cd1e44460)
 
 ### 1. ¿Qué está pasando con rails generate scaffold todo description:string?
 
@@ -17,10 +18,11 @@ Genera vistas para las operaciones CRUD.
 Crea una migración que define cómo crear la tabla "todos" en la base de datos.
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4f69a510-ef63-4301-b0f9-370e46d6ddf8)
 
-![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/940e4925-327e-4962-a2e1-c7e13b2b60ba)
+
 
 ### 2. ¿Qué hace bundle exec rake db:migrate?
 Ejecuta las migraciones de la base de datos que aún no se han aplicado. En el caso de esta aplicación, creará una nueva tabla llamada "todos" con una columna "description".
+![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/940e4925-327e-4962-a2e1-c7e13b2b60ba)
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/c9f3ed61-6fac-48c9-bbb4-f27e91bf2ee2)
 
 
