@@ -6,9 +6,6 @@
 
  ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4e13725c-62f7-4691-96df-b6f2e268d895)
 
- ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/bfa01a81-f590-4eb5-b2a0-569d3deb601a)
-
-![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/d9546909-9606-4329-b7c9-d1d42dc0d0d4)
 
 ### 1. ¿Qué está pasando con rails generate scaffold todo description:string?
 
@@ -18,6 +15,7 @@ Crea un modelo llamado "Todo" con un atributo "description" de tipo "string".
 Crea un controlador "TodosController" con métodos para manejar operaciones CRUD.
 Genera vistas para las operaciones CRUD.
 Crea una migración que define cómo crear la tabla "todos" en la base de datos.
+![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4f69a510-ef63-4301-b0f9-370e46d6ddf8)
 
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/940e4925-327e-4962-a2e1-c7e13b2b60ba)
 
