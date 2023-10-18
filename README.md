@@ -75,7 +75,7 @@ rails db:migrate:down VERSION=numero_de_version
 
 
 ## Parte3
-### Clonar el Repositorio de la aplicación WordGuesserGame Sinatra de la PC1
+### Clonar el Repositorio WordGuesserGame Sinatra de la PC1
 
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4b7d76e1-109d-4119-a1ff-4258dca3aef2)
 
