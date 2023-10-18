@@ -52,7 +52,7 @@ Resultado:
 
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/015824df-0b56-45d1-9f92-f25e2b856d6a)
 
-- Establece "todos#index" como la página de inicio de la aplicación.
+- Establece `todos#index` como la página de inicio de la aplicación.
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/ee4766ff-2d9c-4270-b42f-4a707c533dc5)
 
 Resultado:
