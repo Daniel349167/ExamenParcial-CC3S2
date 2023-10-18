@@ -42,22 +42,26 @@ Ejecuta las migraciones de la base de datos que aún no se han aplicado. En el c
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/4c0989eb-ac04-407c-bd7a-9e213b158752)
 
 Resultado:
+
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/1479e974-ae56-4390-b231-1f47040d0a0e)
 
 - Cambia el esquema de enrutamiento. Debes suponer que queremos una nueva ruta new_todo para ir a una página que crea un nuevo ítem Todo
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/209418ce-f8a6-475a-87b3-378c56e3ff47)
 
 Resultado:
+
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/015824df-0b56-45d1-9f92-f25e2b856d6a)
 
 - Establece "todos#index" como la página de inicio de la aplicación.
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/ee4766ff-2d9c-4270-b42f-4a707c533dc5)
 
 Resultado:
+
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/bd60e3b7-f0d1-4c65-8735-ea134296e36e)
 
 
 - Enumera todas las migraciones. ¿Cuál es el comando para volver a una versión anterior de la base de datos? Muestra los resultados.
+
 Migraciones:
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/18c1a833-2820-4797-a519-8a818f10f5eb)
 
