@@ -31,11 +31,10 @@ Ejecuta las migraciones de la base de datos que aún no se han aplicado. En el c
 
 ### 4. Nuevas rutas y acción del controlador
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/dae6baad-6a35-48fc-bc80-931e258cc401)
-![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/b23fa45b-8444-48f8-9193-af84af6880d1)
-
+![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/816f7482-f289-4265-b735-269bcc253c10)
 - resultado:
 
-![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/816f7482-f289-4265-b735-269bcc253c10)
+
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/fa44a442-e618-46ad-ba50-ffd71b026e03)
 
 ### Preguntas:
