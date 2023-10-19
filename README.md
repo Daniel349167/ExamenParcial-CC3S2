@@ -141,6 +141,6 @@ Rails ofrece `partials`, que son fragmentos de vistas que se pueden reutilizar e
 
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/49604ac3-b7eb-4c53-8969-06c9804792a3)
 
-### 18. ¿Por qué no se modificaron los escenarios de Cucumber y las definiciones de pasos para que funcionen con Sinatra y Rails?
+### 18. ¿Por qué no se modificaron los escenarios de Cucumber y las definiciones de pasos para que funcionen igualmente con Sinatra y Rails?
 Los escenarios de Cucumber y las definiciones de pasos son agnósticos respecto al framework backend. Por eso, no requieren cambios para funcionar tanto en Sinatra como en Rails.
 
