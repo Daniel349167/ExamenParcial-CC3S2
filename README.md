@@ -118,27 +118,29 @@ La información que asigna rutas a las acciones del controlador en una aplicaci�
 La opción `:as => 'name'` se utiliza para nombrar una ruta. Esto permite referenciar la ruta en otras partes de la aplicación usando un nombre en lugar de la URL completa.
 
 
-### 11. En la versión de Sinatra, los bloques before do...end y after do...end se utilizan para la gestión de sesiones. ¿Cuál es el equivalente más cercano en esta aplicación Rails y en qué archivo encontramos el código que lo hace?
+### 12. En la versión de Sinatra, los bloques before do...end y after do...end se utilizan para la gestión de sesiones. ¿Cuál es el equivalente más cercano en esta aplicación Rails y en qué archivo encontramos el código que lo hace?
 En Rails, el equivalente a los bloques before y after de Sinatra son los filtros before_action y after_action. Estos se definen en el archivo app/controllers/game_controller.
 
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/bdaf9511-1665-4afc-8c16-efe7ae539c89)
 
 
-### 12. Un formato de serialización popular para intercambiar datos entre aplicaciones web es JSON. ¿Por qué no funcionaría utilizar JSON en lugar de YAML?
+### 13. Un formato de serialización popular para intercambiar datos entre aplicaciones web es JSON. ¿Por qué no funcionaría utilizar JSON en lugar de YAML?
 JSON no maneja instancias de objetos Ruby o clases personalizadas tan bien como YAML. Usar JSON para ciertos objetos Ruby podría generar errores al intentar serializar o deserializar.
 
-### 13. En la versión de Sinatra, cada acción del controlador termina con redirect o con erb. ¿Por qué no hay llamadas explícitas correspondientes a erb en la versión Rails?
+### 14. En la versión de Sinatra, cada acción del controlador termina con redirect o con erb. ¿Por qué no hay llamadas explícitas correspondientes a erb en la versión Rails?
 En Rails, si no se especifica una respuesta explícita, Rails inferirá cuál vista renderizar basándose en el nombre de la acción del controlador y el controlador en sí. Por ejemplo, la acción show en GameController automáticamente buscará y renderizará app/views/game/show.html.erb.
 
-### 14. En la versión de Sinatra, codificamos directamente un formulario HTML usando la etiqueta <form>. ¿Se te ocurre alguna razón por la que Rails podría introducir este "nivel de direccionamiento indirecto"?
+### 15. En la versión de Sinatra, codificamos directamente un formulario HTML usando la etiqueta <form>. ¿Se te ocurre alguna razón por la que Rails podría introducir este "nivel de direccionamiento indirecto"?
 Rails utiliza métodos como `form_tag` y `form_for` en lugar de la etiqueta <form> directa para mejorar la seguridad mediante tokens anti-CSRF, facilitar la vinculación con modelos, simplificando así el desarrollo y mantenimiento.
 
-### 15. ¿Cómo se manejan los elementos del formulario, como campos de texto y botones, en Rails?
+### 16. ¿Cómo se manejan los elementos del formulario, como campos de texto y botones, en Rails?
+En Rails, los elementos del formulario se manejan usando "helpers" como form_with, text_field, submit, etc., que generan el código HTML necesario y facilitan el manejo de datos.
 
-### 16. En la versión de Sinatra, las vistas de show, win y lose reutilizan el código en la vista new. ¿Qué mecanismo de Rails permite reutilizar esas vistas en la versión de Rails?
+### 17. En la versión de Sinatra, las vistas de show, win y lose reutilizan el código en la vista new. ¿Qué mecanismo de Rails permite reutilizar esas vistas en la versión de Rails?
 Rails ofrece `partials`, que son fragmentos de vistas que se pueden reutilizar en diferentes vistas. Los "partials" se invocan con el método render.
+
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/49604ac3-b7eb-4c53-8969-06c9804792a3)
 
-### 17. ¿Cuál es una explicación cualitativa de por qué no fue necesario modificar los escenarios de Cucumber y las definiciones de pasos para que funcionaran igualmente bien con las versiones de la aplicación Sinatra o Rails?
-
+### 18. ¿Cuál es una explicación cualitativa de por qué no fue necesario modificar los escenarios de Cucumber y las definiciones de pasos para que funcionaran igualmente bien con las versiones de la aplicación Sinatra o Rails?
+Los escenarios de Cucumber y las definiciones de pasos son agnósticos respecto al framework backend. Por eso, no requieren cambios para funcionar tanto en Sinatra como en Rails.
 
