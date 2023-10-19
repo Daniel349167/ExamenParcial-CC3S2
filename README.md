@@ -131,10 +131,10 @@ JSON no maneja instancias de objetos Ruby o clases personalizadas tan bien como 
 En Rails, si no se especifica una respuesta explícita, Rails inferirá cuál vista renderizar basándose en el nombre de la acción del controlador y el controlador en sí. Por ejemplo, la acción show en GameController automáticamente buscará y renderizará app/views/game/show.html.erb.
 
 ### 15. En la versión de Sinatra, codificamos directamente un formulario HTML usando la etiqueta <form>. ¿Se te ocurre alguna razón por la que Rails podría introducir este "nivel de direccionamiento indirecto"?
-Rails utiliza métodos como `form_tag` y `form_for` en lugar de la etiqueta <form> directa para mejorar la seguridad mediante tokens anti-CSRF, facilitar la vinculación con modelos, simplificando así el desarrollo y mantenimiento.
+Rails utiliza métodos como `form_tag` y `form_for` en lugar de la etiqueta <form> directa para mejorar la seguridad mediante tokens anti-CSRF, facilitar la vinculación con modelos, simplificando así la recopilación y validación de datos del formulario. Además, ayuda a mantener un código más ordenado y reutilizable.
 
 ### 16. ¿Cómo se manejan los elementos del formulario, como campos de texto y botones, en Rails?
-En Rails, los elementos del formulario se manejan usando "helpers" como form_with, text_field, submit, etc., que generan el código HTML necesario y facilitan el manejo de datos.
+En Rails, elementos individuales del formulario como campos de texto y botones se gestionan mediante "helpers" específicos como text_field, submit, check_box, etc. Estos "helpers" generan el HTML adecuado y simplifican la manipulación de datos.
 
 ### 17. En la versión de Sinatra, las vistas de show, win y lose reutilizan el código en la vista new. ¿Qué mecanismo de Rails permite reutilizar esas vistas en la versión de Rails?
 Rails ofrece `partials`, que son fragmentos de vistas que se pueden reutilizar en diferentes vistas. Los "partials" se invocan con el método render.
