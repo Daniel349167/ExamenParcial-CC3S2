@@ -81,7 +81,8 @@ rails db:migrate:down VERSION=numero_de_version
 
 ### Correr la aplicación WordGuesserGame Ruby
 ![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/62515a4a-aaa2-4fd3-8723-5eb0bc98fa38)
-![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/9cb7c255-6009-43e6-bcee-d79e4d4bf4fe)
+![image](https://github.com/Daniel349167/ExamenParcial-CC3S2/assets/62466867/7f22416c-2e4f-4f18-8a64-2f6f656a81e9)
+
 
 ### 1. ¿Cuál es el objetivo de ejecutar bundle install?
 Sirve para instalar todas las gemas que el proyecto necesita. Estas gemas están especificadas en el archivo Gemfile.
